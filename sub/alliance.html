@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Booo">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+
+<!-- 아래의 meta tag 4가지 항목을 반드시 추가 하시기 바랍니다. -->
+<meta http-equiv="Cache-Control" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="X-UA-Compatible" content="requiresActiveX=true" >
+<!-- 끝  -->
+<title>Booo</title>
+<link rel="stylesheet" type="text/css" href="../css/general.css?v=20190322">
+<link rel="shortcut icon" href="/favicon.ico">
+<script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/layout.js"></script>
+
+<!-- 메인에 필요한것들 -->
+<link rel="stylesheet" type="text/css" href="../css/swiper.min.css">
+<script src="../js/swiper.min.js"></script>
+<script src="../js/jquery.viewportchecker.js"></script>
+<!-- //메인에 필요한것들 -->
+</head>
+<body>
+    <div id="wrap">
+		<header id="header">
+			<div class="header_inner">
+				<h1 class="logo"><a href="../main/main.html">Booo</a></h1>
+				<div class="gnb_wrap">
+					<div id="ghb">
+						<ul>
+							<li><a href="../about/about01.html">뚝딱뚝딱 부우</a></li>
+							<li><a href="../sub/list.html">환경특파원 뉴스</a></li>
+							<li><a href="../sub/supporters.html">서포터즈</a></li>
+							<li class="on"><a href="../sub/alliance.html">제휴 및 후원 안내</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div id="contents" class="sub_container">
+            <div class="inner">
+                <div class="board_wrap">
+                    <h2 class="title">
+                        제휴 및 후원 안내
+                    </h2>
+                    <div class="alliance_wrap">
+                        <p class="txt_box">
+							개인을 비롯한 단체나 기업의 제휴 및 후원을 기다리고 있습니다.<br>
+							환경개선을 위한 도전에 함께 해 보세요.
+                        </p>
+					    <div class="donation_use">
+					   		<p class="tit"><strong>후원금</strong>은 이렇게 쓰입니다.</p>
+							<ul>
+								<li>
+									<div class="img type01">
+										리스트이미지1
+									</div>
+									<div class="txt_box">
+										<p class="tit">환경캠페인 ‘미스터 부우’콘텐츠 개발 및 배포</p>
+										<p>환경에 관련된 정보가 보다 친근하게 많은 사람들에게 알려질 수 있도록<br>
+										앱, 게임, 애니메이션, 이모티콘, SNS 등 ICT콘텐츠로 개발 합니다.</p>
+									</div>
+								</li>
+								<li>
+									<div class="img type02">
+										리스트이미지2
+									</div>
+									<div class="txt_box">
+										<p class="tit">환경 장학금 조성</p>
+										<p>청년들의 꿈을 응원하는 사회적기업 드림스폰과 함께<br>
+										환경 메시지를 전파하고 직접 환경보호 활동에 참여하는<br>
+										환경 장학금을 조성하여 환경 캠페인을 이어 갑니다.</p>
+									</div>
+								</li>
+								<li>
+									<div class="img type03">
+										리스트이미지3
+									</div>
+									<div class="txt_box">
+										<p class="tit">친환경 소재를 이용한 제품 제작 & 콜라보레이션</p>
+										<p>친환경 소재를 이용한 제품을 제작하여 생활 속에서도 환경보호 메시지를<br>
+										전파하고 실천을 도모합니다. 환경보호에 부합한 제품이나 브랜드들과<br> 
+										협력하여 환경보호에 이바지 할 수 있는 제품을 선사합니다.</p>
+									</div>
+								</li>
+							</ul>
+					    </div>
+						<form id="form">
+					    <div class="table_wrap">
+							<dl class="first_c">
+								<dt>소속</dt>
+								<dd>
+									<input type="radio" id="individual" name="belong" class="blind" value="개인" checked>
+									<label for="individual" class="radio_btn ml0"><i></i>개인</label>
+									<input type="radio" id="group" name="belong" class="blind" value="단체">
+									<label for="group" class="radio_btn"><i></i>단체</label>
+								</dd>
+							</dl>
+							<dl>
+								<dt>분야</dt>
+								<dd>
+									<input type="radio" id="field01" name="field" class="blind" value="제휴" checked>
+									<label for="field01" class="radio_btn ml0"><i></i>제휴</label>
+									<input type="radio" id="field02" name="field" class="blind" value="정기후원">
+									<label for="field02" class="radio_btn"><i></i>정기후원</label>
+									<input type="radio" id="field03" name="field" class="blind" value="일시후원">
+									<label for="field03" class="radio_btn"><i></i>일시후원</label>
+								</dd>
+							</dl>
+							<dl>
+								<dt>이름 (기업/단체명)</dt>
+								<dd>
+									<input type="text" id="name" name="name" placeholder="이름(기업/단체명)을 입력해 주세요." style="ime-mode:active;">
+									<label for="name" class="blind">이름 (기업/단체명)</label>
+								</dd>
+							</dl>
+							<dl>
+								<dt>연락처</dt>
+								<dd>
+									<input type="text" id="phone" name="phone" maxlength="13" placeholder="연락처를 입력해 주세요." onkeyup="javascript:this.value=inputTelNumber(this.value)">
+									<label for="phone" class="blind">연락처</label>
+								</dd>
+							</dl>
+							<dl>
+								<dt>이메일</dt>
+								<dd>
+									<input type="text" id="email" name="email" placeholder="이메일을 입력해 주세요." style="ime-mode:inactive;">
+									<label for="email" class="blind">이메일</label>
+								</dd>
+							</dl>
+							<dl>
+								<dt>문의</dt>
+								<dd>
+									<textarea name="content" id="content" placeholder="제휴 및 후원 관련하여 궁금하신 사항이나 요청사항 등 내용을 입력해 주세요." style="ime-mode:active;"></textarea>
+									<label for="content" class="blind">문의</label>
+								</dd>
+							</dl>
+							<div class="select_agree">
+								<input type="checkbox" id="agree" name="agree" class="blind">
+								<label for="agree" class="agree_chk"><i></i><span>개인정보 수집 및 이용</span>에 동의합니다.</label>
+							</div>
+						</div>
+						<div class="btn_area"><button type="button" class="btn">제휴 및 후원 문의하기</button></div>
+						<div class="character_box ch02 post animated">
+							<img src="../images/sub/support_bg.png" alt="">
+						</div>
+						</form>
+                    </div>
+                </div>
+            </div>
+		</div>
+		<footer id="footer">
+			<div class="footer_inner">
+				<h2 class="footer_log"><img src="../images/common/f_logo.png" alt="footer logo"></h2>
+				<div class="footer_info">
+					<p>서울특별시 마포구 매봉산로 37, 1004호(상암동, DMC 산학협력연구센터)</p>
+					<p>No. 1004, 37, Maebongsan-ro, Mapo-gu, Seoul, Republic of Korea</p>
+					<p class="biz_contact"><strong>TEL</strong>02-3152-2525<strong>FAX</strong>02-3152-2525 <strong>EMAIL</strong>info@booo.com </p>
+
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script>
+	$(function(){
+		$('#gnb ul li').eq(3).addClass('on');
+		$('.post').addClass("hidden2").viewportChecker({
+			classToAdd: 'visible fadeInUp',
+			repeat: false,
+			offset: 300
+		});
+	});
+	</script>
+</body>
+</html>
